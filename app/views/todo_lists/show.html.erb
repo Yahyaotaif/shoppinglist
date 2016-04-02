@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <font size="6" color="#fffaf0">
+  <%= @todo_list.title %>
+  </font>
+</p>
+
+<div id="todo_items_wrapper">
+<%= render @todo_list.todo_items %>
+  <div id="form">
+    <%= render "todo_items/form" %>
+  </div>
+ </div>
+</br>
+</br>
+<div class="back">
+<%= link_to todo_lists_path do %>
+ <font size="6"><i class="fa fa-arrow-circle-left"></i> </font>
+<% end %>
+      </div>
