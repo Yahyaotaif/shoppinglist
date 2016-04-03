@@ -10,7 +10,7 @@ html {
 }
 
 body {
-background-image: asset-data-url("nb.jpg");
+background-image: url(asset-path("nb.jpg"));
   font-family: 'ubuntu', sans-serif;
 }
 
